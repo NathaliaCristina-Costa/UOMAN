@@ -1,29 +1,100 @@
+
+@font-face {
+  font-family: 'coopbl';
+  src: url('../fonte/COOPBL.TTF') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'gotham';
+  src: url('../fonte/Gotham-Book.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+p{
+  font-family: 'gotham';
+}
+
+h1{
+  font-family: 'coopbl', serif;
+}
+
 .tituloUm{
-    color: #F7A62B;
-    font-weight: bold;
-    font-size: 30px;
-    font-family: 'Goudy Bookletter 1911', serif;
+  color: #F27823;
+  font-size: 3rem;  
+}
+
+.tituloDois{
+  color: #fff;
+  font-size: 3rem;  
+}
+
+.tituloTres{
+  color: #5F4387;
+  font-size: 3rem;
+  
+}
+.tituloCadastro{
+  color: #5F4387;
+}
+.fundoTratamentos {
+  position: relative;
+  display: table;
+  background: url("../assets/img/UOMAN_Site\ Assinaturas_Fundo\ Novos\ Tratamentos.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.fundoCaracteristicas {
+  position: relative;
+  display: table;
+  background: url("../assets/img/caracteriscas.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 
+.fundoPreco {
+  position: relative;
+  display: table;
+  background: url("../assets/img/UOMAN_Site\ Assinaturas_Fundo\ Preço.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
-footer.footer {
-    background-color: #C24F9C;
-    padding-top: 5rem;
-    padding-bottom: 5rem;
-  }
-  footer.footer .social-link {
-    display: block;
-    text-decoration: none;
-    height: 4rem;
-    width: 4rem;
-    line-height: 4.3rem;
-    font-size: 1.5rem;
-    background-color: #1D809F;
-    transition: background-color 0.15s ease-in-out;
-    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
-  }
-  footer.footer .social-link:hover {
-    background-color: #155d74;
-    text-decoration: none;
-  }
+
+.fundoCadastro {
+  position: relative;
+  display: table;
+  background: url("../assets/img/cadastro.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.card-header{
+  border-color: #71C9C4;
+  border-radius: 50px;
+}
+
+.card-body{
+  background-color:#71C9C4;
+  
+}
+
+.rodape{
+  padding: 2.5rem;
+}
+
+.footer {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  background-color: #C24F9C;
+  color: #fff;
+}
+
+

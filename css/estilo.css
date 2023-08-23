@@ -20,7 +20,14 @@ p{
 h1{
   font-family: 'coopbl', serif;
 }
-
+.menu{
+  position: relative;
+  display: table;
+  background: url("../assets/img/navbar.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .tituloUm{
   color: #F27823;
   font-size: 3rem;  
@@ -85,7 +92,9 @@ h1{
   background-color:#71C9C4;
   
 }
-
+.linkRodape{
+  color: #fff;
+}
 .rodape{
   padding: 2.5rem;
 }

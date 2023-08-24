@@ -13,13 +13,19 @@
   font-style: normal;
 }
 
-p{
+p, a{
   font-family: 'gotham';
 }
 
-h1{
+h1,h2,h3,h4,h5,h6{
   font-family: 'coopbl', serif;
 }
+
+.cabecalho{
+  color: #000;
+  margin: 0px 350px 200px 0px;
+}
+
 .menu{
   position: relative;
   display: table;
@@ -28,6 +34,7 @@ h1{
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 .tituloUm{
   color: #F27823;
   font-size: 3rem;  
@@ -43,9 +50,20 @@ h1{
   font-size: 3rem;
   
 }
+
 .tituloCadastro{
   color: #5F4387;
 }
+
+.fundoPrecoCadastro{
+  position: relative;
+  display: table;
+  background: url("../assets/img/Slice\ 2\ \(1\).png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .fundoTratamentos {
   position: relative;
   display: table;
@@ -83,18 +101,24 @@ h1{
   background-repeat: no-repeat;
   background-size: cover;
 }
-.card-header{
-  border-color: #71C9C4;
-  border-radius: 50px;
-}
 
-.card-body{
+.card-body, .bg-cachos{
   background-color:#71C9C4;
   
 }
+
+.cardAssine{
+  position: absolute;
+  bottom: 50px;
+  left: 6px;
+}
+
+
+
 .linkRodape{
   color: #fff;
 }
+
 .rodape{
   padding: 2.5rem;
 }
@@ -105,5 +129,4 @@ h1{
   background-color: #C24F9C;
   color: #fff;
 }
-
 
